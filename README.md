@@ -4,7 +4,7 @@ Type-along logs.
 
 **When** 7, 8, 9, 10 October 2024 (third edition)  
 **Where** Delft University of Technology  
-**Who, the instructors** Halford Dance, Carlos Utrilla Guerrero, Manuel Garcia Alvarez  
+**Who, the instructors** Halford Dace, Carlos Utrilla Guerrero, Manuel Garcia Alvarez  
 **Who, the helpers**  Elviss Dvinskis, Joao Guimaraes, Richard Grimes
 
 ---
@@ -35,19 +35,20 @@ L1. FUNDAMENTAL OPERATIONS WITH GIT
 | Episode | Topic |
 |:----|:----|
 | **1.1** | **Git repositories for version control** | 
-| --- | Introduction to Git | 
-| --- | Git command syntax and getting help | 
-| --- | Creating an empty repository | 
+|  | Introduction to Git | 
+|  | Git command syntax and getting help | 
+|  | Creating an empty repository | 
 | **1.2** | **Tracking changes in working documents** | 
-| --- | Tracking changes with the index | 
-| --- | Not tracking and stop tracking | 
-| --- | Undoing changes with the index | 
-| --- | Deleting and renaming tracked files and directories  | 
+|  | Tracking changes with the index | 
+|  | Not tracking and stop tracking | 
+|  | Undoing changes with the index | 
+|  | Deleting and renaming tracked files and directories  | 
 | **1.3** | **Organising tracked changes in a history** | 
-| --- | Committing changes with a configured identity and a message | 
-| --- | Inspecting changes using the history | 
-| --- | Undoing changes with the history | 
-  
+|  | Committing changes with a configured identity and a message | 
+|  | Inspecting changes using the history | 
+|  | Undoing changes with the history | 
+|  | Marking the history using tags | 
+
 </details>
 
 <details> 
@@ -60,13 +61,11 @@ L2. BRANCHING AND REMOTE OPERATIONS
 | **2.1** | **Branching** | 
 | --- | Create, rename, change, and delete branches | 
 | --- | Develop and compare branches | 
-| --- | Visualise and merge branches, and resolve conflicts | 
+| --- | Visualise and merge branches and resolve conflicts | 
 | **2.2** | **Operations with remotes** | 
 | --- | Create a bare repositories |
 | --- | Cloning and pushing to upstreams |
 | --- | Syncing changes between repositories |
-| --- | ~Comparing repositories~ |
-| --- | ~Multiple branches, multiple remotes~ |
 
 </details>
 
@@ -82,13 +81,15 @@ L3. COLLABORATIVE SOFTWARE DEVELOPMENT
 | --- | Exploring the GitHub GUI |
 | --- | Collaborating |
 | **3.2** | **Collaborative Development for Research Software** |
-| --- | When to aim for a collaborative approach? |
-| --- | Management strategies |
-| --- | Roles and responsibilities |
+| --- | Introduction to collaboration in software projects |
+| --- | Managing research software projects |
+| --- | Organising research teams for collaborative development  |
+| **3.3** | Collaborative Workflows |
 | --- | Documenting issues |
-| --- | Centralize workflow: branching
+| --- | Centralise workflow: branching
 | --- | Pull requests
 | --- | Shared workflow: forking
+
 </details>
 
 
@@ -99,15 +100,15 @@ L4. COLLABORATIVE SOFTWARE DEVELOPMENT (to be composed)
   
 | Episode | Topic |
 |:----|:----|
-| **4.1** | | **Managing collaboration** |
+| **4.1** |  **Managing collaboration** |
 | --- | Code Reviews |
-| --- | Guidelines |
-| **4.2** | **Licensing and Citation ** |
-| --- | Open source Licenses |
-| --- | Citation |
+| --- | Contributing Guidelines |
+| **4.2** | **Licensing and Citation** |
+| --- | Open Source Licenses |
+| --- | Software Citation |
 | **4.3** | **Releasing Software** | 
-| --- | Semantic versioning |
-| --- | Releases |
+| --- | Semantic Versioning |
+| --- | Software Releases |
 
 </details>
 
@@ -130,42 +131,22 @@ Please refresh the page with the lesson notes in your browser (typically, hit `F
 So, you will view the latest commands as the notes grow.
 Kindly notify the instructor if you do not see this happening.
 
-#### After the class
-
-After the end of the lessons the instructors will decorate the type-along notes with the division in Chapters and Episodes and add annotations. 
-Completing this may take a few days after the workshop.
-
-- [Lecture notes lesson 1](Lesson1.md)
-- [Lecture notes lesson 2](Lesson2.md)
-
-
-### 2.2 Lesson 3 and 4: Lecture notes
-
-The lecture notes for these lessons can be found in:
-
-- [Lecture notes lesson 3](Lesson3.md)
-- [Lecture notes lesson 4](Lesson4.md)
-
-
 ---
 ## 3. Documents
 
 ### The workshop
 Please bookmark these URLs for an easy navigation during the workshop:
 
-1. [Workshop announcement at the Library](https://www.tudelft.nl/library/research-data-management/r/training-evenementen/training-voor-onderzoekers/version-control-collaborative-development-for-research-software)
-2. Short URL of this README file: [https://bit.ly/2310-gitcodev-TUD](https://bit.ly/2310-gitcodev-TUD)
-3. Full URL of this page: https://github.com/4TUResearchData-Carpentries/workshop_notes/tree/2310-gitcodev-TUD 
+1. Full URL of this page: https://github.com/4TUResearchData-Carpentries/2024-10-07-gitcodev
 
 ### The slides
-* [Workshop introduction](https://drive.google.com/file/d/1-HX-avKiULFfc14mT0yhLfamqoQgehnm/view?usp=drive_link)
-* Lesson 3, TOC and exercises: [Google Slides](Lesson3.md) (subject to revision after this workshop)
-* Lesson 4, TOC and exercises: [Google Slides](Lesson4.md) (subject to revision after this workshop)
-* ~Workshop conclusion and outlook~
+
+* Lesson 3, TOC and exercises: [Google Slides](#) (will be updated shortly before the lesson)
+* Lesson 4, TOC and exercises: [Google Slides](#) (will be updated shortly before the lesson)
 
 ### User Accounts
 
-Register you account via [GitHub account.](https://forms.gle/asj6dAhTh6vcyUhV9)
+Register you account via [GitHub account](https://forms.gle/HtVDb6sVjLFgNNnL9)
 
 ### The feedback forms
 
@@ -173,11 +154,7 @@ Filling in these anonymous questionnaires is voluntary.
 Your honest opinion based on your experience will help us improve the design and delivery of the workshop. 
 Thank you in advance for your time.
 
-* Feedback on Lesson 1: [Google Forms](https://forms.gle/97uGyGNZDawi9JXa7)
-* Feedback on Lesson 2: [Google Forms](https://forms.gle/S3RrnFf8gRTRGbfV8)
-* Feedback on Lesson 3: [Google Forms](https://forms.gle/SpKPDy42zY1PTzUv9)
-* Feedback on Lesson 4: [Google Forms](https://forms.gle/6jipvVF7bfiCoNso7)
-
+* Feedback on this workshop: [Google Forms](#) (will be available on the last day)
 
 ---
 ## 4. Resources
@@ -208,16 +185,13 @@ Thank you in advance for your time.
     * [Git by xkcd](https://xkcd.com/1597)
     
 
-
-...
-
 ---
 
 ## 5. Licensing
 
 #### Authorship
 
-This course has been designed, developed and delivered by Manuel Garcia Alvarez and Giordano Lipari.
+This course has been designed, developed by Manuel Garcia Alvarez and Giordano Lipari, and delivered by Halford Dace, Carlos Utrilla Guerrero, and Manuel Garcia.
 
 #### Distribution
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> in accordance with the <a href='https://doi.org/10.5281/zenodo.3516874'> Vision for Research Data & Software management training at TU Delft</a>.
