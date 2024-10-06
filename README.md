@@ -116,8 +116,8 @@ L4. COLLABORATIVE SOFTWARE DEVELOPMENT (to be composed)
 
 This respository contains the type-along logs for the class. You will find the logs of every command the instructors type for **lessons 1 and 2** in the files below. Both of these files will be empty at the start of the class, and will fill up as the day progresses. They are useful if you find yourself needing to catch up at some poing, or want to review what was done after the course.
 
-* [lesson1](#lesson1.txt): working with local git repositories
-* [lesson2](#lesson2.txt): working with branches and remote repositories
+* [lesson1](lesson1.txt): working with local git repositories
+* [lesson2](lesson2.txt): working with branches and remote repositories
 
 #### During the class
 The commands the instructors type on the screen during each lesson will be appended continuously to the documents **1esson[12].\*** (the file extension may vary).
@@ -138,8 +138,8 @@ Please bookmark these URLs for an easy navigation during the workshop:
 
 ### The slides
 
-* Lesson 3, TOC and exercises: [Google Slides](#) (will be updated shortly before the lesson)
-* Lesson 4, TOC and exercises: [Google Slides](#) (will be updated shortly before the lesson)
+* Lesson 3, TOC and exercises: [Google Slides]() (will be updated shortly before the lesson)
+* Lesson 4, TOC and exercises: [Google Slides]() (will be updated shortly before the lesson)
 
 ### User Accounts
 
