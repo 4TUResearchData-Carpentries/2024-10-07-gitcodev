@@ -25,8 +25,6 @@ The workshop is divided into **4 Lessons**, each given in one half a day.
 Each Lesson is further divided into **Episodes**, and then into **Chapters**. 
 Unfold the detailed tables of contents in the listing below. 
 
-Continue HERE
-
 <details> 
 <summary>
 L1. FUNDAMENTAL OPERATIONS WITH GIT
@@ -116,14 +114,13 @@ L4. COLLABORATIVE SOFTWARE DEVELOPMENT (to be composed)
 
 ## 2. Lesson notes
 
-The material of each lesson will be presented in documents named as **Lesson[1234].\*** (the file extension may vary).
-The documents are listed at the top of this web page, _above_ this text.
-There, bring up the file of your interest upon clicking _exactly on the file name_, hence to the left in the line. 
+This respository contains the type-along logs for the class. You will find the logs of every command the instructors type for **lessons 1 and 2** in the files below. Both of these files will be empty at the start of the class, and will fill up as the day progresses. They are useful if you find yourself needing to catch up at some poing, or want to review what was done after the course.
 
-### 2.1 Lesson 1 and 2: type-along notes
+* [lesson1](#lesson1.txt): working with local git repositories
+* [lesson2](#lesson2.txt): working with branches and remote repositories
 
 #### During the class
-The commands the instructors type on the screen during each lesson will be appended continuously to the documents **Lesson[12].\*** (the file extension may vary).
+The commands the instructors type on the screen during each lesson will be appended continuously to the documents **1esson[12].\*** (the file extension may vary).
 
 Please use these lesson notes when you had to lag behind the instructor and need to catch up with the instructions. 
 
@@ -154,7 +151,7 @@ Filling in these anonymous questionnaires is voluntary.
 Your honest opinion based on your experience will help us improve the design and delivery of the workshop. 
 Thank you in advance for your time.
 
-* Feedback on this workshop: [Google Forms](#) (will be available on the last day)
+* Feedback on this workshop: [Google Forms](#) (available on the last day)
 
 ---
 ## 4. Resources
