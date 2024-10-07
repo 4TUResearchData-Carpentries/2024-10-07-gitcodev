@@ -6,3 +6,4 @@ mkdir -p 2024-gitcodev/git
 cd 2024-gitcodev/
 cd git
 ls
+echo $SHELL
