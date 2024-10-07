@@ -62,3 +62,4 @@ ls
 mkdir directory
 ls
 git status
+touch directory/emptyfile
