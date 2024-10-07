@@ -119,3 +119,4 @@ git status
 git help gitignore
 git add .gitignore
 git status
+git rm directory/emptyfile 
