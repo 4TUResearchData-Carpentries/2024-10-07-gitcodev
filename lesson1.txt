@@ -189,3 +189,4 @@ git add Lines.txt
 git commit -m 'seventh line' Lines.txt 
 git log --oneline
 git diff HEAD
+git diff HEAD HEAD~1
