@@ -152,3 +152,4 @@ rm -r directory
 git status
 git restore directory
 ls -R
+touch directory/trackme.txt
