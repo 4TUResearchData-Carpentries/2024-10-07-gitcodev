@@ -45,3 +45,4 @@ cat lines.txt
 git diff lines.txt
 git status
 git add lines.txt 
+git status
