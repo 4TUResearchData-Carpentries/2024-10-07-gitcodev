@@ -108,3 +108,4 @@ ls
 ls directory/
 git status
 echo 'directory' >> .gitignore 
+cat .gitignore 
