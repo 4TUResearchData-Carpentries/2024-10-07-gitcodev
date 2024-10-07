@@ -164,3 +164,4 @@ git status
 cat Lines.txt 
 git commit -m 'Add first four lines' Lines.txt 
 it status
+git status
