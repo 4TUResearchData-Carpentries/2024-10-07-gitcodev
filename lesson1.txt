@@ -180,3 +180,4 @@ git diff
 git add Lines.txt 
 git diff
 git commit 'Jabberwocky line 2' Lines.txt 
+git commit -m 'Jabberwocky line 2' Lines.txt 
