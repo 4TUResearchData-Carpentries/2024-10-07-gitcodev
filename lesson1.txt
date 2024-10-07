@@ -165,3 +165,4 @@ cat Lines.txt
 git commit -m 'Add first four lines' Lines.txt 
 it status
 git status
+git config --global user.name 'Halford Dace'
