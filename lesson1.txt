@@ -220,3 +220,4 @@ git tag -a 'This is a long explanation of what happened here'
 git tag -a 'This is a long explanation of what happened here' HEAD~1
 git tag -a
 git tag -a 'This is a long explanation of what happened here' tag1 HEAD~1
+git tag -a -m 'This is a long explanation of what happened here' tag1 HEAD~1
