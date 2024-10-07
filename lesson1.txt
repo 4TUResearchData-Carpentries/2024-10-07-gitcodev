@@ -177,3 +177,4 @@ git log --oneline
 git diff
 echo 'did gyre and gimble' >> Lines.txt 
 git diff
+git add Lines.txt 
