@@ -168,3 +168,4 @@ git status
 git config --global user.name 'Halford Dace'
 git config --global user.email 'H.J.W.Dace@tudelft.nl'
 git commit -m 'Adding .gitignore' .gitignore
+echo 'twas brillig and the slithy toves' >> Lines.txt 
