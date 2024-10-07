@@ -202,3 +202,5 @@ git log --oneline
 git tag 'release to test'
 git tag 'test'
 git log --oneline
+git tag 'almostready' HEAD~1
+git log --oneline
