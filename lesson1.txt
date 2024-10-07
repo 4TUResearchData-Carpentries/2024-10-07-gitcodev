@@ -192,3 +192,4 @@ git diff HEAD
 git diff HEAD HEAD~1
 git diff HEAD~1 HEAD
 git diff HEAD~3 HEAD
+git restore HEAD~3 Lines.txt 
