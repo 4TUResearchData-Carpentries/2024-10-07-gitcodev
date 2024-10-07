@@ -174,3 +174,4 @@ git commit -m "Modified Lines.txt" Lines.txt
 git status
 git log
 git log --oneline
+git diff
