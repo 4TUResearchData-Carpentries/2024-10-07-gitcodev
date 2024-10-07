@@ -212,3 +212,4 @@ echo 'eigth line' >> Lines.txt
 cat Lines.txt 
 git status
 git add Lines.txt 
+git commit -m 'Eighth line' Lines.txt 
