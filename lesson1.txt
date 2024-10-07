@@ -217,3 +217,4 @@ history
 git log --oneline
 git tag -a 'This is a long explanation of what happened here' TAG1
 git tag -a 'This is a long explanation of what happened here'
+git tag -a 'This is a long explanation of what happened here' HEAD~1
