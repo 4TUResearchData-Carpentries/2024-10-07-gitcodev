@@ -207,3 +207,4 @@ git log --oneline
 git diff almostready test
 git tag -d test
 git log --oneline
+git tag -d almostready
