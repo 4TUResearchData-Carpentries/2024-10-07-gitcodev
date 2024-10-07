@@ -223,3 +223,4 @@ git tag -a 'This is a long explanation of what happened here' tag1 HEAD~1
 git tag -a -m 'This is a long explanation of what happened here' tag1 HEAD~1
 git log --oneline
 git show
+git show HEAD~1
