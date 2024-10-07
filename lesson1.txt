@@ -160,3 +160,4 @@ git status -u
 clear
 git status
 git mv lines.txt Lines.txt
+git status
