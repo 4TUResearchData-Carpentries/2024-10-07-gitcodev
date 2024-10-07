@@ -136,3 +136,4 @@ echo '!directory' >> .gitignore
 git status -u
 git add directory/donttrackme.txt 
 git add directory/emptyfile 
+git status
