@@ -80,3 +80,4 @@ ls
 ls -a
 git status
 git add .gitignore 
+git status
