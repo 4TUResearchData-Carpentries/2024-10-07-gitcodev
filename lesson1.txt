@@ -172,3 +172,4 @@ echo 'twas brillig and the slithy toves' >> Lines.txt
 git add Lines.txt 
 git commit -m "Modified Lines.txt" Lines.txt 
 git status
+git log
