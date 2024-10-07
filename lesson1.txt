@@ -122,3 +122,4 @@ git status
 git rm directory/emptyfile 
 git rm --cached directory/emptyfile
 git status
+ls directory/
