@@ -149,3 +149,4 @@ ls -R
 touch directory/donttrackme.txt
 git status
 rm -r directory
+git status
