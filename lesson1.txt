@@ -67,3 +67,4 @@ ls -R
 git status
 git status -u
 git add directory
+git status
