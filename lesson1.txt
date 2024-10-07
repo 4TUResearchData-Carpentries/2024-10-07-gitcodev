@@ -204,3 +204,4 @@ git tag 'test'
 git log --oneline
 git tag 'almostready' HEAD~1
 git log --oneline
+git diff almostready test
