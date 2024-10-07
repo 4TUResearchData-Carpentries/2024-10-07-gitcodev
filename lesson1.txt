@@ -13,3 +13,4 @@ git version
 git -v
 git help
 clear
+git help help
