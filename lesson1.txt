@@ -61,3 +61,4 @@ pwd
 ls
 mkdir directory
 ls
+git status
