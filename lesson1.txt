@@ -94,3 +94,4 @@ git add new.txt
 # End of experiment
 which more
 more
+cat lines.txt | more
