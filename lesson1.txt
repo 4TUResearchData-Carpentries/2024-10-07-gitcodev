@@ -163,3 +163,4 @@ git mv lines.txt Lines.txt
 git status
 cat Lines.txt 
 git commit -m 'Add first four lines' Lines.txt 
+it status
