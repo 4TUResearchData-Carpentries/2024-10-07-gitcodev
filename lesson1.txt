@@ -91,3 +91,4 @@ echo 'new file' > new.txt
 echo 'new.txt' >> .gitignore 
 git status
 git add new.txt
+# End of experiment
