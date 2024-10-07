@@ -47,3 +47,4 @@ git status
 git add lines.txt 
 git status
 git diff lines.txt
+ls
