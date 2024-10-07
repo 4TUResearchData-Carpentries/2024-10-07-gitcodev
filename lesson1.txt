@@ -102,3 +102,4 @@ touch directory/trackme.txt
 touch directory/donttrackme
 ls directory/
 mv directory/donttrackme donttrackme.txt
+git status
