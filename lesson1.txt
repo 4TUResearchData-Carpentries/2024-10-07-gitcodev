@@ -175,3 +175,5 @@ git status
 git log
 git log --oneline
 git diff
+echo 'did gyre and gimble' >> Lines.txt 
+git diff
