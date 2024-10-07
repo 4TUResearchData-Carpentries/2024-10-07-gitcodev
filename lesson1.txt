@@ -145,3 +145,4 @@ git status
 rm -r directory/
 ls
 git restore directory
+ls -R
