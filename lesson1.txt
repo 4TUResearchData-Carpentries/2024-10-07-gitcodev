@@ -64,3 +64,4 @@ ls
 git status
 touch directory/emptyfile
 ls -R
+git status
