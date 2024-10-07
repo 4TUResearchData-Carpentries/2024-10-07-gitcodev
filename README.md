@@ -1,7 +1,5 @@
 # Workshop Version Control and Collaborative Development for Research Software
 
-Type-along logs.
-
 **When** 7, 8, 9, 10 October 2024 (third edition)  
 **Where** Delft University of Technology  
 **Who, the instructors** Halford Dace, Carlos Utrilla Guerrero, Manuel Garcia Alvarez  
