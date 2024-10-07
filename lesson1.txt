@@ -69,3 +69,4 @@ git status -u
 git add directory
 git status
 history
+history 20
