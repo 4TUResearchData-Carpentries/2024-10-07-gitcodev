@@ -186,3 +186,4 @@ git log
 git log --oneline
 echo 'seventh' >> Lines.txt 
 git add Lines.txt 
+git commit -m 'seventh line' Lines.txt 
