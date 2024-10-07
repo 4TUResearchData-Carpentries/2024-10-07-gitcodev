@@ -8,3 +8,4 @@ cd git
 ls
 echo $SHELL
 git
+git --version
