@@ -132,3 +132,4 @@ git restore lines.txt
 cat lines.txt 
 git status
 git diff lines.txt
+echo '!directory' >> .gitignore 
