@@ -134,3 +134,4 @@ git status
 git diff lines.txt
 echo '!directory' >> .gitignore 
 git status -u
+git add directory/donttrackme.txt 
