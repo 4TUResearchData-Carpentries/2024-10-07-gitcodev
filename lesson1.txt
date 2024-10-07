@@ -140,3 +140,4 @@ git status
 git add .gitignore 
 git status
 history
+git rm --cached directory/donttrackme.txt 
