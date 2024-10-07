@@ -22,3 +22,4 @@ git help glossary
 clear
 pwd
 ls
+echo 'first line'
