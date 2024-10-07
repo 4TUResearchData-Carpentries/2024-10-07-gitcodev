@@ -58,3 +58,4 @@ git diff lines.txt
 clear
 # Working with directories
 pwd
+ls
