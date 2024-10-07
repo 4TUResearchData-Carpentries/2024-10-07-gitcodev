@@ -201,3 +201,4 @@ git diff a3e83a8 4cbfd87
 git log --oneline
 git tag 'release to test'
 git tag 'test'
+git log --oneline
