@@ -182,3 +182,5 @@ git diff
 git commit 'Jabberwocky line 2' Lines.txt 
 git commit -m 'Jabberwocky line 2' Lines.txt 
 git diff
+git log
+git log --oneline
