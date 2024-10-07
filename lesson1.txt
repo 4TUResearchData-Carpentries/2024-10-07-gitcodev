@@ -12,3 +12,4 @@ git --version
 git version
 git -v
 git help
+clear
