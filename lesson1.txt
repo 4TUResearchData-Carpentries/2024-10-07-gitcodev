@@ -209,3 +209,4 @@ git tag -d test
 git log --oneline
 git tag -d almostready
 echo 'eigth line' >> Lines.txt 
+cat Lines.txt 
