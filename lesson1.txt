@@ -49,3 +49,4 @@ git status
 git diff lines.txt
 ls
 echo 'fourth line' >> lines.txt 
+git status
