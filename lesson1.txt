@@ -159,3 +159,4 @@ git mv directory/trackme.txt directory/donttrackme.txt
 git status -u
 clear
 git status
+git mv lines.txt Lines.txt
