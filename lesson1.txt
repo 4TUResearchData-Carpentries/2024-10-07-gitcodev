@@ -87,3 +87,4 @@ git status
 git add .gitignore 
 git status
 # Next few commands are not core part of the course
+echo 'new file' > new.txt
