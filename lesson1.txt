@@ -215,3 +215,4 @@ git add Lines.txt
 git commit -m 'Eighth line' Lines.txt 
 history
 git log --oneline
+git tag -a 'This is a long explanation of what happened here' TAG1
