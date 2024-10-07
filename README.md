@@ -138,6 +138,7 @@ Please bookmark these URLs for an easy navigation during the workshop:
 
 ### The slides
 
+* Lesson 1, Intro and exercises: [Google slides](https://docs.google.com/presentation/d/1BucILQ9Osz_2tKYF3kF-c3uZFND8xfJ4/edit?usp=sharing&ouid=108295666446583887819&rtpof=true&sd=true)
 * Lesson 3, TOC and exercises: [Google Slides]() (will be updated shortly before the lesson)
 * Lesson 4, TOC and exercises: [Google Slides]() (will be updated shortly before the lesson)
 
