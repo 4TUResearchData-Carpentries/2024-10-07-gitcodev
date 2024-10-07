@@ -166,3 +166,4 @@ git commit -m 'Add first four lines' Lines.txt
 it status
 git status
 git config --global user.name 'Halford Dace'
+git config --global user.email 'H.J.W.Dace@tudelft.nl'
