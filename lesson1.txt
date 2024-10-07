@@ -72,3 +72,4 @@ history
 history 20
 history 20 > history.log
 ls
+cat history.log 
