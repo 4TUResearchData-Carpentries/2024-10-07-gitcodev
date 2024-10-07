@@ -155,3 +155,4 @@ ls -R
 touch directory/trackme.txt
 git add directory/trackme.txt 
 git status
+git mv directory/trackme.txt directory/donttrackme.txt
