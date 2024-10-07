@@ -14,3 +14,4 @@ git -v
 git help
 clear
 git help help
+git config
