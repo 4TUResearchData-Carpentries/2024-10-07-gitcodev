@@ -16,3 +16,4 @@ clear
 git help help
 git config
 git config --list
+git config --global core.editor nano
