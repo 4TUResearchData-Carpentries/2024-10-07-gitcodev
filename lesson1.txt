@@ -154,3 +154,4 @@ git restore directory
 ls -R
 touch directory/trackme.txt
 git add directory/trackme.txt 
+git status
