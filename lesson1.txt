@@ -7,3 +7,4 @@ cd 2024-gitcodev/
 cd git
 ls
 echo $SHELL
+git
