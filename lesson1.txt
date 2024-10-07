@@ -100,3 +100,4 @@ git config --list
 clear
 touch directory/trackme.txt
 touch directory/donttrackme
+ls directory/
