@@ -157,3 +157,4 @@ git add directory/trackme.txt
 git status
 git mv directory/trackme.txt directory/donttrackme.txt
 git status -u
+clear
