@@ -146,3 +146,4 @@ rm -r directory/
 ls
 git restore directory
 ls -R
+touch directory/donttrackme.txt
