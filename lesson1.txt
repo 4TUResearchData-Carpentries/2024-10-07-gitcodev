@@ -59,3 +59,5 @@ clear
 # Working with directories
 pwd
 ls
+mkdir directory
+ls
