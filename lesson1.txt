@@ -103,3 +103,4 @@ touch directory/donttrackme
 ls directory/
 mv directory/donttrackme donttrackme.txt
 git status
+mv donttrackme.txt directory/
