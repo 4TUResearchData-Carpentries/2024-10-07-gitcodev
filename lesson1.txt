@@ -95,3 +95,4 @@ git add new.txt
 which more
 more
 cat lines.txt | more
+cat lines.txt | less
