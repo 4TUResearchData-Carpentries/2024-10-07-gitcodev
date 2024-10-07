@@ -21,3 +21,4 @@ git config --global core.autocrlf false
 git help glossary
 clear
 pwd
+ls
