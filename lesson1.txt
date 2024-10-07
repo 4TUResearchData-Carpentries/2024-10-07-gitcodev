@@ -98,3 +98,4 @@ cat lines.txt | more
 cat lines.txt | less
 git config --list
 clear
+touch directory/trackme.txt
