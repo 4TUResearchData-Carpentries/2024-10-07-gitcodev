@@ -37,3 +37,4 @@ ls -aF
 ls -aF .git/
 git status
 git add lines.txt
+git status
