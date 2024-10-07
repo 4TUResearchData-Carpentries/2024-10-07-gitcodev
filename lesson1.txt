@@ -56,3 +56,4 @@ git add lines.txt
 git status
 git diff lines.txt
 clear
+# Working with directories
