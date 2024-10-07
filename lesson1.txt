@@ -85,3 +85,4 @@ echo 'lines.txt' >> .gitignore
 cat .gitignore 
 git status
 git add .gitignore 
+git status
