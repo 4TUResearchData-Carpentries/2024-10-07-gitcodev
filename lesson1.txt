@@ -144,3 +144,4 @@ git rm --cached directory/donttrackme.txt
 git status
 rm -r directory/
 ls
+git restore directory
