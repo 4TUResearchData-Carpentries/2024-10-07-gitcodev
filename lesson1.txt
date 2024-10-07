@@ -2,3 +2,4 @@
 clear
 cd ~/Desktop
 ls
+mkdir -p 2024-gitcodev/git
