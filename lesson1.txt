@@ -30,3 +30,4 @@ echo 'second line'
 echo 'second line' >> lines.txt 
 cat lines.txt 
 git status
+git init
