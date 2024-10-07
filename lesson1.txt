@@ -113,3 +113,4 @@ git status
 echo '!directory' >> .gitignore 
 git status
 cat .gitignore
+echo 'directory' >> .gitignore 
