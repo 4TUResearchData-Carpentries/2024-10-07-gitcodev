@@ -107,3 +107,4 @@ mv donttrackme.txt directory/
 ls
 ls directory/
 git status
+echo 'directory' >> .gitignore 
