@@ -79,3 +79,4 @@ echo '*.log' > .gitignore
 ls
 ls -a
 git status
+git add .gitignore 
