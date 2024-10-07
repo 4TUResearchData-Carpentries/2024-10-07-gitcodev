@@ -185,3 +185,4 @@ git diff
 git log
 git log --oneline
 echo 'seventh' >> Lines.txt 
+git add Lines.txt 
