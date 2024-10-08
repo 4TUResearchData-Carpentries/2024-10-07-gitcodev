@@ -4,3 +4,6 @@ rm -rf directory/
 rm -r history.log new.txt 
 ls
 git status
+git rm --cached directory/
+git rm --cached directory/donttrackme.txt
+git rm --cached directory/emptyfile
