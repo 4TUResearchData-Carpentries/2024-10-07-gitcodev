@@ -61,3 +61,11 @@ git log --oneline
 git log --oneline
 git log --oneline --all --parents
 clear
+git switch main
+echo "ninth line (duplicate)" >> Lines.txt 
+git add Lines.txt 
+git status
+git commit -m "add tenth line on main" Lines.txt 
+cat Lines.txt 
+git log --oneline --all --parents
+git log --oneline --all --parents --graph
