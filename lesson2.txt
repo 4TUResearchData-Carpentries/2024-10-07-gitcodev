@@ -1,3 +1,6 @@
 
 pwd
 clear
+ls
+clear
+cat ~/Desktop/gitcodev_autopush/lesson2.txt 
