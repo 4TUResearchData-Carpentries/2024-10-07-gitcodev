@@ -85,3 +85,9 @@ git switch main
 git diff main b1 Lines.txt
 nano Lines.txt 
 # Erroneous tenth line removed in nano
+cat Lines.txt 
+git status
+git add Lines.txt 
+git commit -m 'correct tenth line on main' Lines.txt 
+git log --oneline --all --graph
+git commit --amend -m "removed duplicate line"
