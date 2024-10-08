@@ -8,3 +8,8 @@ git rm --cached directory/
 git rm --cached directory/donttrackme.txt
 git rm --cached directory/emptyfile
 pwd
+clear
+git branch --help
+git branch
+git branch b1
+git branch
