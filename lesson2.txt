@@ -32,3 +32,32 @@ git branch b2
 git switch b2
 git log --oneline
 # Exercise 1 - rename branches
+git branch -d b1
+git switch master
+git branch -d b2
+git branch -m master main
+git branch b1
+git branch b2
+git status
+echo 'ninth line' >> Lines.txt 
+git status
+git add Lines.txt 
+git status
+git commit -m 'add ninth line on main' Lines.txt 
+git status
+git switch b1
+git status
+clear
+git log --oneline
+git log --oneline -all
+git log --oneline --all
+echo 'ninth line' >> Lines.txt 
+git status
+git add Lines.txt 
+git commit 'added ninth line on b1'
+git commit -m 'added ninth line on b1'
+git status
+git log --oneline
+git log --oneline
+git log --oneline --all --parents
+clear
