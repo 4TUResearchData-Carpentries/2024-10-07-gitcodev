@@ -99,3 +99,16 @@ git commit -m "Added ninth and tenth lines to B2"
 git log --oneline --all --parents --graph
 git switch B1
 cat Lines.txt 
+echo 'eleventh line' >> Lines.txt 
+echo 'twelfth line' >> Lines.txt 
+git diff
+git add Lines.txt 
+git status
+git commit -m "add 11th and 12th lines on b1" Lines.txt 
+git log --oneline --all --graph
+git switch main
+git diff main b1
+git merge -m "merge development from branch b1" Lines.txt
+git merge -m "merge development from branch b1" b1
+git status
+git diff Lines.txt
