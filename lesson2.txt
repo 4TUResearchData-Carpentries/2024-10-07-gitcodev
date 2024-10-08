@@ -71,3 +71,17 @@ git log --oneline --all --parents
 git log --oneline --all --parents --graph
 clear
 git switch b1
+cat Lines.txt 
+echo 'tenth line on B1' >> Lines.txt 
+cat Lines.txt 
+git add Lines.txt 
+git commit -m "add tenth line on b1" Lines.txt 
+git log --oneline --all --graph
+git switch main
+git diff  HEAD HEAD~1 Lines.txt
+git diff main b1~1 Lines.txt\
+git switch b1
+git switch main
+git diff main b1 Lines.txt
+nano Lines.txt 
+# Erroneous tenth line removed in nano
