@@ -1,0 +1,6 @@
+ls
+git status
+rm -rf directory/
+rm -r history.log new.txt 
+ls
+git status
