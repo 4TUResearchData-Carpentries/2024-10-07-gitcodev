@@ -91,3 +91,10 @@ git add Lines.txt
 git commit -m 'correct tenth line on main' Lines.txt 
 git log --oneline --all --graph
 git commit --amend -m "removed duplicate line"
+git switch B2
+echo 'ninth line' >> Lines.txt 
+echo 'tenth line' >> Lines.txt 
+git add Lines.txt 
+git commit -m "Added ninth and tenth lines to B2"
+git log --oneline --all --parents --graph
+git switch B1
