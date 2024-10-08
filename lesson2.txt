@@ -98,3 +98,4 @@ git add Lines.txt
 git commit -m "Added ninth and tenth lines to B2"
 git log --oneline --all --parents --graph
 git switch B1
+cat Lines.txt 
