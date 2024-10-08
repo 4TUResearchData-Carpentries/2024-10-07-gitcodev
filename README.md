@@ -163,6 +163,8 @@ Thank you in advance for your time.
     * General features: https://www.git-scm.com/about
     * ProGit book (505 pages, open access, with full and partial translations in other languages): https://www.git-scm.com/book
     * **Please explore this website**.
+ * https://swcarpentry.github.io/git-novice/01-basics.html
+    * This is the Software Carpentries lesson on git, which we use as an introductory-level course at TU Delft. It includes nice notes on Automated Version Control, what it's for and why we use it. 
 
 ### GitHub-related documentation
 
