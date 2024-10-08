@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 
 pwd
 clear
 ls
 clear
 cat ~/Desktop/gitcodev_autopush/lesson2.txt 
+=======
+>>>>>>> d67d53458482bc450fa3a5737a68c1ea7f08f634
