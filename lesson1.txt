@@ -226,3 +226,7 @@ git show
 git show HEAD~1
 git show tag1
 cat Lines.txt 
+clear
+cd Desktop/gitcodev_autopush/
+gitautopush --sleep 5
+exit
