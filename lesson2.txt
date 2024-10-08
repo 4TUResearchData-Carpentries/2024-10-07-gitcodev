@@ -69,3 +69,5 @@ git commit -m "add tenth line on main" Lines.txt
 cat Lines.txt 
 git log --oneline --all --parents
 git log --oneline --all --parents --graph
+clear
+git switch b1
