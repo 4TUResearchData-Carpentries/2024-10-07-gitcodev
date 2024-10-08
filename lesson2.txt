@@ -113,3 +113,5 @@ git merge -m "merge development from branch b1" b1
 git status
 git diff Lines.txt
 cat Lines.txt 
+nano Lines.txt 
+cat Lines.txt 
