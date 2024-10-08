@@ -1,1 +1,30 @@
 # notes for lesson 2
+: 1728381809:0;pwd
+pwd
+ls
+ls
+history
+cat ~/.bash_history 
+ls
+dir
+pwd
+cat .bash_history 
+echo $HISTFILE
+pwd
+histrory
+history
+ls -a
+man history
+source ~/.bash_profile 
+pwd
+ls
+exit
+ls
+ls
+exit
+ls
+history -a
+ks
+ld
+ls
+exit
