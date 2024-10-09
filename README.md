@@ -13,7 +13,7 @@
 Each day we follow the following routine. 
 The time slots are not tied to the rolling out of self-contained topics.
 
-| 13:00  | 13:50 | 14:00 | 14:50 | 15:10 | 15:00 | 16:10 | 17:00 | 17:10 |
+| 13:00  | 13:50 | 14:00 | 14:50 | 15:10 | 16:00 | 16:10 | 17:00 | 17:10 |
 |:-------|:------|:------|:------|:------|:------|:------|:------|:------|
 | Teaching 50' | **Break 10'** | Teaching 50' | **Break 20'** | Teaching 50' | **Break 10'** | Teaching  50'| **Wrap-up 10'** | Closure |
 
