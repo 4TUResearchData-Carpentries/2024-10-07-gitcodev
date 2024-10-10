@@ -1,1 +1,117 @@
-
+ls
+git status
+rm -rf directory/
+rm -r history.log new.txt 
+ls
+git status
+git rm --cached directory/
+git rm --cached directory/donttrackme.txt
+git rm --cached directory/emptyfile
+pwd
+clear
+git branch --help
+git branch
+git branch b1
+git branch
+git branch -m b1 b2
+git branch
+git log --oneline
+git branch
+git branch -d b2
+git log --oneline
+git branch -m master foo
+clear
+git branch -d foo
+git branch -m foo master
+git branch b1
+git branch
+git switch 
+git switch b1
+clear
+git branch b2
+git switch b2
+git log --oneline
+# Exercise 1 - rename branches
+git branch -d b1
+git switch master
+git branch -d b2
+git branch -m master main
+git branch b1
+git branch b2
+git status
+echo 'ninth line' >> Lines.txt 
+git status
+git add Lines.txt 
+git status
+git commit -m 'add ninth line on main' Lines.txt 
+git status
+git switch b1
+git status
+clear
+git log --oneline
+git log --oneline -all
+git log --oneline --all
+echo 'ninth line' >> Lines.txt 
+git status
+git add Lines.txt 
+git commit 'added ninth line on b1'
+git commit -m 'added ninth line on b1'
+git status
+git log --oneline
+git log --oneline
+git log --oneline --all --parents
+clear
+git switch main
+echo "ninth line (duplicate)" >> Lines.txt 
+git add Lines.txt 
+git status
+git commit -m "add tenth line on main" Lines.txt 
+cat Lines.txt 
+git log --oneline --all --parents
+git log --oneline --all --parents --graph
+clear
+git switch b1
+cat Lines.txt 
+echo 'tenth line on B1' >> Lines.txt 
+cat Lines.txt 
+git add Lines.txt 
+git commit -m "add tenth line on b1" Lines.txt 
+git log --oneline --all --graph
+git switch main
+git diff  HEAD HEAD~1 Lines.txt
+git diff main b1~1 Lines.txt\
+git switch b1
+git switch main
+git diff main b1 Lines.txt
+nano Lines.txt 
+# Erroneous tenth line removed in nano
+cat Lines.txt 
+git status
+git add Lines.txt 
+git commit -m 'correct tenth line on main' Lines.txt 
+git log --oneline --all --graph
+git commit --amend -m "removed duplicate line"
+git switch B2
+echo 'ninth line' >> Lines.txt 
+echo 'tenth line' >> Lines.txt 
+git add Lines.txt 
+git commit -m "Added ninth and tenth lines to B2"
+git log --oneline --all --parents --graph
+git switch B1
+cat Lines.txt 
+echo 'eleventh line' >> Lines.txt 
+echo 'twelfth line' >> Lines.txt 
+git diff
+git add Lines.txt 
+git status
+git commit -m "add 11th and 12th lines on b1" Lines.txt 
+git log --oneline --all --graph
+git switch main
+git diff main b1
+git merge -m "merge development from branch b1" Lines.txt
+git merge -m "merge development from branch b1" b1
+git status
+git diff Lines.txt
+cat Lines.txt 
+nano Lines.txt 
+cat Lines.txt 

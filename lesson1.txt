@@ -1,1 +1,232 @@
 
+clear
+cd ~/Desktop
+ls
+mkdir -p 2024-gitcodev/git
+cd 2024-gitcodev/
+cd git
+ls
+echo $SHELL
+git
+git --version
+git version
+git -v
+git help
+clear
+git help help
+git config
+git config --list
+git config --global core.editor nano
+git config --global core.autocrlf false
+git help glossary
+clear
+pwd
+ls
+echo 'first line'
+echo 'first line' > lines.txt
+ls
+cat lines.txt 
+echo 'second line'
+echo 'second line' >> lines.txt 
+cat lines.txt 
+git status
+git init
+ls
+ls -a
+ls -aF
+ls -aF .git/
+git status
+git add lines.txt
+git status
+ls -a .git
+git diff lines.txt
+echo 'third line' >> lines.txt 
+cat lines.txt 
+git diff lines.txt
+git status
+git add lines.txt 
+git status
+git diff lines.txt
+ls
+echo 'fourth line' >> lines.txt 
+git status
+git diff lines.txt
+git status
+git add lines.txt 
+git status
+git diff lines.txt
+clear
+# Working with directories
+pwd
+ls
+mkdir directory
+ls
+git status
+touch directory/emptyfile
+ls -R
+git status
+git status -u
+git add directory
+git status
+history
+history 20
+history 20 > history.log
+ls
+cat history.log 
+git status
+echo '*.log'
+echo '*.log' > .gitignore
+ls
+ls -a
+git status
+git add .gitignore 
+git status
+echo 'lines.txt' >> .gitignore 
+cat .gitignore 
+git status
+git add .gitignore 
+git status
+# Next few commands are not core part of the course
+echo 'new file' > new.txt
+echo 'new.txt' >> .gitignore 
+git status
+git add new.txt
+# End of experiment
+which more
+more
+cat lines.txt | more
+cat lines.txt | less
+git config --list
+clear
+touch directory/trackme.txt
+touch directory/donttrackme
+ls directory/
+mv directory/donttrackme donttrackme.txt
+git status
+mv donttrackme.txt directory/
+ls
+ls directory/
+git status
+echo 'directory' >> .gitignore 
+cat .gitignore 
+git status
+echo '!directory' >> .gitignore 
+git status
+cat .gitignore
+echo 'directory' >> .gitignore 
+cat .gitignore
+git status
+git help gitignore
+git add .gitignore
+git status
+git rm directory/emptyfile 
+git rm --cached directory/emptyfile
+git status
+ls directory/
+cat lines.txt 
+echo 'fifth line' >> lines.txt
+cat lines.txt
+git status
+git diff lines.txt
+git restore lines.txt
+cat lines.txt 
+git status
+git diff lines.txt
+echo '!directory' >> .gitignore 
+git status -u
+git add directory/donttrackme.txt 
+git add directory/emptyfile 
+git status
+git add .gitignore 
+git status
+history
+git rm --cached directory/donttrackme.txt 
+git status
+rm -r directory/
+ls
+git restore directory
+ls -R
+touch directory/donttrackme.txt
+git status
+rm -r directory
+git status
+git restore directory
+ls -R
+touch directory/trackme.txt
+git add directory/trackme.txt 
+git status
+git mv directory/trackme.txt directory/donttrackme.txt
+git status -u
+clear
+git status
+git mv lines.txt Lines.txt
+git status
+cat Lines.txt 
+git commit -m 'Add first four lines' Lines.txt 
+it status
+git status
+git config --global user.name 'Halford Dace'
+git config --global user.email 'H.J.W.Dace@tudelft.nl'
+git commit -m 'Adding .gitignore' .gitignore
+echo 'twas brillig and the slithy toves' >> Lines.txt 
+git add Lines.txt 
+git commit -m "Modified Lines.txt" Lines.txt 
+git status
+git log
+git log --oneline
+git diff
+echo 'did gyre and gimble' >> Lines.txt 
+git diff
+git add Lines.txt 
+git diff
+git commit 'Jabberwocky line 2' Lines.txt 
+git commit -m 'Jabberwocky line 2' Lines.txt 
+git diff
+git log
+git log --oneline
+echo 'seventh' >> Lines.txt 
+git add Lines.txt 
+git commit -m 'seventh line' Lines.txt 
+git log --oneline
+git diff HEAD
+git diff HEAD HEAD~1
+git diff HEAD~1 HEAD
+git diff HEAD~3 HEAD
+git restore HEAD~3 Lines.txt 
+git restore Lines.txt HEAD~3
+git help restore
+git log --oneline
+git diff HEAD~2 HEAD
+git diff a3e83a8 4cbfd87
+git log --oneline
+git tag 'release to test'
+git tag 'test'
+git log --oneline
+git tag 'almostready' HEAD~1
+git log --oneline
+git diff almostready test
+git tag -d test
+git log --oneline
+git tag -d almostready
+echo 'eigth line' >> Lines.txt 
+cat Lines.txt 
+git status
+git add Lines.txt 
+git commit -m 'Eighth line' Lines.txt 
+history
+git log --oneline
+git tag -a 'This is a long explanation of what happened here' TAG1
+git tag -a 'This is a long explanation of what happened here'
+git tag -a 'This is a long explanation of what happened here' HEAD~1
+git tag -a
+git tag -a 'This is a long explanation of what happened here' tag1 HEAD~1
+git tag -a -m 'This is a long explanation of what happened here' tag1 HEAD~1
+git log --oneline
+git show
+git show HEAD~1
+git show tag1
+cat Lines.txt 
+clear
+cd Desktop/gitcodev_autopush/
+gitautopush --sleep 5
+exit

@@ -1,7 +1,5 @@
 # Workshop Version Control and Collaborative Development for Research Software
 
-Type-along logs.
-
 **When** 7, 8, 9, 10 October 2024 (third edition)  
 **Where** Delft University of Technology  
 **Who, the instructors** Halford Dace, Carlos Utrilla Guerrero, Manuel Garcia Alvarez  
@@ -116,8 +114,8 @@ L4. COLLABORATIVE SOFTWARE DEVELOPMENT (to be composed)
 
 This respository contains the type-along logs for the class. You will find the logs of every command the instructors type for **lessons 1 and 2** in the files below. Both of these files will be empty at the start of the class, and will fill up as the day progresses. They are useful if you find yourself needing to catch up at some poing, or want to review what was done after the course.
 
-* [lesson1](#lesson1.txt): working with local git repositories
-* [lesson2](#lesson2.txt): working with branches and remote repositories
+* [lesson1](lesson1.txt): working with local git repositories
+* [lesson2](lesson2.txt): working with branches and remote repositories
 
 #### During the class
 The commands the instructors type on the screen during each lesson will be appended continuously to the documents **1esson[12].\*** (the file extension may vary).
@@ -152,6 +150,8 @@ Please bookmark these URLs for an easy navigation during the workshop:
     * General features: https://www.git-scm.com/about
     * ProGit book (505 pages, open access, with full and partial translations in other languages): https://www.git-scm.com/book
     * **Please explore this website**.
+ * https://swcarpentry.github.io/git-novice/01-basics.html
+    * This is the Software Carpentries lesson on git, which we use as an introductory-level course at TU Delft. It includes nice notes on Automated Version Control, what it's for and why we use it. 
 
 ### GitHub-related documentation
 
